@@ -1,0 +1,502 @@
+[
+    {
+        "municipio": "Acambay",
+        "cabecera": "Acambay"
+    },
+    {
+        "municipio": "Acolman",
+        "cabecera": "Acolman de Nezahualcóyotl"
+    },
+    {
+        "municipio": "Aculco",
+        "cabecera": "Aculco de Espinoza"
+    },
+    {
+        "municipio": "Almoloya de Alquisiras",
+        "cabecera": "Almoloya de Alquisiras"
+    },
+    {
+        "municipio": "Almoloya de Juárez",
+        "cabecera": "Villa de Almoloya de Juárez"
+    },
+    {
+        "municipio": "Almoloya del Río",
+        "cabecera": "Almoloya del Río"
+    },
+    {
+        "municipio": "Amanalco",
+        "cabecera": "Amanalco"
+    },
+    {
+        "municipio": "Amatepec",
+        "cabecera": "Amatepec"
+    },
+    {
+        "municipio": "Amecameca",
+        "cabecera": "Amecameca de Juárez"
+    },
+    {
+        "municipio": "Apaxco",
+        "cabecera": "Apaxco de Ocampo"
+    },
+    {
+        "municipio": "Atenco",
+        "cabecera": "San Salvador Atenco"
+    },
+    {
+        "municipio": "Atizapán",
+        "cabecera": "Santa Cruz Atizapán"
+    },
+    {
+        "municipio": "Atizapán de Zaragoza",
+        "cabecera": "Ciudad Adolfo López Mateos"
+    },
+    {
+        "municipio": "Atlacomulco",
+        "cabecera": "Atlacomulco de Fabela"
+    },
+    {
+        "municipio": "Atlautla",
+        "cabecera": "Atlautla de Victoria"
+    },
+    {
+        "municipio": "Axapusco",
+        "cabecera": "Axapusco"
+    },
+    {
+        "municipio": "Ayapango",
+        "cabecera": "Ayapango de Gabriel Ramos Millán"
+    },
+    {
+        "municipio": "Calimaya",
+        "cabecera": "Calimaya de Díaz González"
+    },
+    {
+        "municipio": "Capulhuac",
+        "cabecera": "Capulhuac de Mirafuentes"
+    },
+    {
+        "municipio": "Coacalco de Berriozábal",
+        "cabecera": "San Francisco Coacalco"
+    },
+    {
+        "municipio": "Coatepec Harinas",
+        "cabecera": "Coatepec Harinas"
+    },
+    {
+        "municipio": "Cocotitlán",
+        "cabecera": "Cocotitlán"
+    },
+    {
+        "municipio": "Coyotepec",
+        "cabecera": "Coyotepec"
+    },
+    {
+        "municipio": "Cuautitlán",
+        "cabecera": "Cuautitlán"
+    },
+    {
+        "municipio": "Chalco",
+        "cabecera": "Chalco de Díaz Covarrubias"
+    },
+    {
+        "municipio": "Chapa de Mota",
+        "cabecera": "Chapa de Mota"
+    },
+    {
+        "municipio": "Chapultepec",
+        "cabecera": "Chapultepec"
+    },
+    {
+        "municipio": "Chiautla",
+        "cabecera": "Chiautla"
+    },
+    {
+        "municipio": "Chicoloapan",
+        "cabecera": "Chicoloapan de Juárez"
+    },
+    {
+        "municipio": "Chiconcuac",
+        "cabecera": "Chiconcuac de Juárez"
+    },
+    {
+        "municipio": "Chimalhuacán",
+        "cabecera": "Chimalhuacán"
+    },
+    {
+        "municipio": "Donato Guerra",
+        "cabecera": "Villa Donato Guerra"
+    },
+    {
+        "municipio": "Ecatepec de Morelos",
+        "cabecera": "Ecatepec de Morelos"
+    },
+    {
+        "municipio": "Ecatzingo",
+        "cabecera": "Ecatzingo de Hidalgo"
+    },
+    {
+        "municipio": "Huehuetoca",
+        "cabecera": "Huehuetoca"
+    },
+    {
+        "municipio": "Hueypoxtla",
+        "cabecera": "Hueypoxtla"
+    },
+    {
+        "municipio": "Huixquilucan",
+        "cabecera": "Huixquilucan de Degollado"
+    },
+    {
+        "municipio": "Isidro Fabela",
+        "cabecera": "Tlazala de Fabela"
+    },
+    {
+        "municipio": "Ixtapaluca",
+        "cabecera": "Ixtapaluca"
+    },
+    {
+        "municipio": "Ixtapan de la Sal",
+        "cabecera": "Ixtapan de la Sal"
+    },
+    {
+        "municipio": "Ixtapan del Oro",
+        "cabecera": "Ixtapan del Oro"
+    },
+    {
+        "municipio": "Ixtlahuaca",
+        "cabecera": "Ixtlahuaca de Rayón"
+    },
+    {
+        "municipio": "Xalatlaco",
+        "cabecera": "Xalatlaco"
+    },
+    {
+        "municipio": "Jaltenco",
+        "cabecera": "Jaltenco"
+    },
+    {
+        "municipio": "Jilotepec",
+        "cabecera": "Jilotepec de Andrés Molina Enríquez"
+    },
+    {
+        "municipio": "Jilotzingo",
+        "cabecera": "Santa Ana Jilotzingo"
+    },
+    {
+        "municipio": "Jiquipilco",
+        "cabecera": "Jiquipilco"
+    },
+    {
+        "municipio": "Jocotitlán",
+        "cabecera": "Jocotitlán"
+    },
+    {
+        "municipio": "Joquicingo",
+        "cabecera": "Joquicingo de León Guzmán"
+    },
+    {
+        "municipio": "Juchitepec",
+        "cabecera": "Juchitpec de Mariano Rivapalacio"
+    },
+    {
+        "municipio": "Lerma",
+        "cabecera": "Lerma de Villada"
+    },
+    {
+        "municipio": "Malinalco",
+        "cabecera": "Malinalco"
+    },
+    {
+        "municipio": "Melchor Ocampo",
+        "cabecera": "Melchor Ocampo"
+    },
+    {
+        "municipio": "Metepec",
+        "cabecera": "Metepec"
+    },
+    {
+        "municipio": "Mexicaltzingo",
+        "cabecera": "San Mateo Mexicaltzingo"
+    },
+    {
+        "municipio": "Morelos",
+        "cabecera": "San Bartolo Morelos"
+    },
+    {
+        "municipio": "Naucalpan de Juárez",
+        "cabecera": "Naucalpan de Juárez"
+    },
+    {
+        "municipio": "Nezahualcóyotl",
+        "cabecera": "Ciudad Nezahualcóyotl"
+    },
+    {
+        "municipio": "Nextlalpan",
+        "cabecera": "Santa Ana Nextlalpan"
+    },
+    {
+        "municipio": "Nicolás Romero",
+        "cabecera": "Villa Nicolás Romero"
+    },
+    {
+        "municipio": "Nopaltepec",
+        "cabecera": "Nopaltepec"
+    },
+    {
+        "municipio": "Ocoyoacac",
+        "cabecera": "Ocoyoacac"
+    },
+    {
+        "municipio": "Ocuilan",
+        "cabecera": "Ocuilan de Arteaga"
+    },
+    {
+        "municipio": "El Oro",
+        "cabecera": "El Oro de Hidalgo"
+    },
+    {
+        "municipio": "Otumba",
+        "cabecera": "Otumba de Gómez Farías"
+    },
+    {
+        "municipio": "Otzoloapan",
+        "cabecera": "Otzoloapan"
+    },
+    {
+        "municipio": "Otzolotepec",
+        "cabecera": "Villa Cuauhtémoc"
+    },
+    {
+        "municipio": "Ozumba",
+        "cabecera": "Ozumba de Alzate"
+    },
+    {
+        "municipio": "Papalotla",
+        "cabecera": "Papalotla"
+    },
+    {
+        "municipio": "La Paz",
+        "cabecera": "Los Reyes Acaquilpan"
+    },
+    {
+        "municipio": "Polotitlán",
+        "cabecera": "Polotitlán de la Ilustración"
+    },
+    {
+        "municipio": "Rayón",
+        "cabecera": "Santa María Rayón"
+    },
+    {
+        "municipio": "San Antonio la Isla",
+        "cabecera": "San Antonio la Isla"
+    },
+    {
+        "municipio": "San Felipe del Progreso",
+        "cabecera": "San Felipe del Progreso"
+    },
+    {
+        "municipio": "San Martín de las Pirámides",
+        "cabecera": "San Martín de las Pirámides"
+    },
+    {
+        "municipio": "San Mateo Atenco",
+        "cabecera": "San Mateo Atenco"
+    },
+    {
+        "municipio": "San Simón de Guerrero",
+        "cabecera": "San Simón de Guerrero"
+    },
+    {
+        "municipio": "Santo Tomás",
+        "cabecera": "Santo Tomás de los Plátanos"
+    },
+    {
+        "municipio": "Soyaniquilpan de Juárez",
+        "cabecera": "San Francisco Soyaniquilpan"
+    },
+    {
+        "municipio": "Sultepec",
+        "cabecera": "Sultepec de Pedro Ascencio de Alquisiras"
+    },
+    {
+        "municipio": "Tecámac",
+        "cabecera": "Tecámac de Felipe Villanueva"
+    },
+    {
+        "municipio": "Tejupilco",
+        "cabecera": "Tejupilco de Hidalgo"
+    },
+    {
+        "municipio": "Temamatla",
+        "cabecera": "Temamatla"
+    },
+    {
+        "municipio": "Temascalapa",
+        "cabecera": "Temascalapa"
+    },
+    {
+        "municipio": "Temascalcingo",
+        "cabecera": "Temascalcingo de José María Velasco"
+    },
+    {
+        "municipio": "Temascaltepec",
+        "cabecera": "Temascaltepec de González"
+    },
+    {
+        "municipio": "Temoaya",
+        "cabecera": "Temoaya"
+    },
+    {
+        "municipio": "Tenancingo",
+        "cabecera": "Tenancingo de Degollado"
+    },
+    {
+        "municipio": "Tenango del Aire",
+        "cabecera": "Tenango del Aire"
+    },
+    {
+        "municipio": "Tenango del Valle",
+        "cabecera": "Tenango de Arista"
+    },
+    {
+        "municipio": "Teoloyucan",
+        "cabecera": "Teoloyucan"
+    },
+    {
+        "municipio": "Teotihuacán",
+        "cabecera": "Teotihuacán de Arista"
+    },
+    {
+        "municipio": "Tepetlaoxtoc",
+        "cabecera": "Tepetlaoxtoc de Hidalgo"
+    },
+    {
+        "municipio": "Tepetlixpa",
+        "cabecera": "Tepetlixpa"
+    },
+    {
+        "municipio": "Tepotzotlán",
+        "cabecera": "Tepotzotlán"
+    },
+    {
+        "municipio": "Tequixquiac",
+        "cabecera": "Santiago Tequixquiac"
+    },
+    {
+        "municipio": "Texcaltitlán",
+        "cabecera": "Texcaltitlán"
+    },
+    {
+        "municipio": "Texcalyacac",
+        "cabecera": "San Mateo Texcalyacac"
+    },
+    {
+        "municipio": "Texcoco",
+        "cabecera": "Texcoco de Mora"
+    },
+    {
+        "municipio": "Tezoyuca",
+        "cabecera": "Tezoyuca"
+    },
+    {
+        "municipio": "Tianguistenco",
+        "cabecera": "Santiago Tianguistenco de Galeana"
+    },
+    {
+        "municipio": "Timilpan",
+        "cabecera": "San Andrés Timilpan"
+    },
+    {
+        "municipio": "Tlalmanalco",
+        "cabecera": "Tlalmanalco de Velázquez"
+    },
+    {
+        "municipio": "Tlalnepantla de Baz",
+        "cabecera": "Tlalnepantla"
+    },
+    {
+        "municipio": "Tlatlaya",
+        "cabecera": "Tlatlaya"
+    },
+    {
+        "municipio": "Toluca",
+        "cabecera": "Toluca de Lerdo"
+    },
+    {
+        "municipio": "Tonatico",
+        "cabecera": "Tonatico"
+    },
+    {
+        "municipio": "Tultepec",
+        "cabecera": "Santa María Tultepec"
+    },
+    {
+        "municipio": "Tultitlán",
+        "cabecera": "Tultitlán de Mariano Escobedo"
+    },
+    {
+        "municipio": "Valle de Bravo",
+        "cabecera": "Valle de Bravo"
+    },
+    {
+        "municipio": "Villa de Allende",
+        "cabecera": "San José Villa de Allende"
+    },
+    {
+        "municipio": "Villa del Carbón",
+        "cabecera": "Villa del Carbón"
+    },
+    {
+        "municipio": "Villa Guerrero",
+        "cabecera": "Villa Guerrero"
+    },
+    {
+        "municipio": "Villa Victoria",
+        "cabecera": "Villa Victoria"
+    },
+    {
+        "municipio": "Xonacatlán",
+        "cabecera": "Xonacatlán"
+    },
+    {
+        "municipio": "Zacazonapan",
+        "cabecera": "Zacazonapan"
+    },
+    {
+        "municipio": "Zacualpan",
+        "cabecera": "Real de Minas Zacualpan"
+    },
+    {
+        "municipio": "Zinacantepec",
+        "cabecera": "San Miguel Zinacantepec"
+    },
+    {
+        "municipio": "Zumpahuacán",
+        "cabecera": "Zumpahuacán"
+    },
+    {
+        "municipio": "Zumpango",
+        "cabecera": "Zumpango de Ocampo"
+    },
+    {
+        "municipio": "Cuautitlán Izcalli",
+        "cabecera": "Cuautitlán Izcalli"
+    },
+    {
+        "municipio": "Valle de Chalco Solidaridad",
+        "cabecera": "Xico"
+    },
+    {
+        "municipio": "Luvianos",
+        "cabecera": "Villa Luvianos"
+    },
+    {
+        "municipio": "San José del Rincón",
+        "cabecera": "San José del Rincón Centro"
+    },
+    {
+        "municipio": "Tonanitla",
+        "cabecera": "Santa Maria Tonanitla"
+    }
+]
