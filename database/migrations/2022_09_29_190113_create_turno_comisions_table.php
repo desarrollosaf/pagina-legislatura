@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateAcuerdosTable extends Migration
+class CreateTurnoComisionsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,12 @@ class CreateAcuerdosTable extends Migration
      */
     public function up()
     {
-        Schema::create('acuerdos', function (Blueprint $table) {
+        Schema::create('turno_comisions', function (Blueprint $table) {
             $table->uuid('id')->primary();
-            $table->date("fecha_acuerdo");
-            $table->string("nombre_acuerdo");
             $table->uuid("iniciativa_id");
             $table->foreign("iniciativa_id")->on("iniciativas")->references("id");
+            $table->uuid("comision_id");
+            $table->foreign("comision_id")->on("comisions")->references("id");
             $table->timestamps();
             $table->softDeletes();
         });
@@ -31,6 +31,6 @@ class CreateAcuerdosTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('acuerdos');
+        Schema::dropIfExists('turno_comisions');
     }
 }
