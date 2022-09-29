@@ -15,11 +15,10 @@ class CreateAutorIniciativasTable extends Migration
     {
         Schema::create('autor_iniciativas', function (Blueprint $table) {
             $table->uuid("id")->primary();
-            $table->uuid("iniciativa_id");
-            $table->foreign("iniciativa_id")->references("id")->on("iniciativas");
-            $table->uuid("tipo_autor_id");
-            $table->foreign("tipo_autor_id")->references("id")->on("tipo_autor");
+            $table->uuid("iniciativaable_id");
+            $table->string("iniciativaable_type");
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

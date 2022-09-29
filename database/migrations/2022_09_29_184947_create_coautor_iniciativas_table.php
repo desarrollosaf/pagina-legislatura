@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateIniciativaDictamensTable extends Migration
+class CreateCoautorIniciativasTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,12 @@ class CreateIniciativaDictamensTable extends Migration
      */
     public function up()
     {
-        Schema::create('iniciativa_dictamens', function (Blueprint $table) {
-            $table->id();
-            $table->date("fecha")->nullable();
-            $table->string("dictamen");
-            $table->foreign("id_iniciativa_id")->on("iniciativas")->references("id");
+        Schema::create('coautor_iniciativas', function (Blueprint $table) {
+            $table->uuid("id")->primary();
+            $table->uuid("iniciativaable_id");
+            $table->string("iniciativaable_type");
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 
@@ -29,6 +29,6 @@ class CreateIniciativaDictamensTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('iniciativa_dictamens');
+        Schema::dropIfExists('coautor_iniciativas');
     }
 }
