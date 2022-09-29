@@ -15,7 +15,9 @@ class CreateEstatusIniciativasTable extends Migration
     {
         Schema::create('estatus_iniciativas', function (Blueprint $table) {
             $table->uuid('id')->primary();
-            $table->string("valor");
+            $table->foreign("tipo_status_id")->on("tipo_estatuses")->references("id");
+            $table->foreign("iniciativa_id")->on("iniciativas")->references("id");
+            $table->date("fecha");
             $table->timestamps();
             $table->softDeletes();
         });
