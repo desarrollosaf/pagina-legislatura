@@ -18,6 +18,8 @@ class CreateDecretosTable extends Migration
             $table->date("fecha_decreto");
             $table->string("num_decreto");
             $table->string("nombre_decreto");
+            $table->uuid("iniciativa_id");
+            $table->foreign("iniciativa_id")->on("iniciativas")->references("id");
             $table->timestamps();
             $table->softDeletes();
         });

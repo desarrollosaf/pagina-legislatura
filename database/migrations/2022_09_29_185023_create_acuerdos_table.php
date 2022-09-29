@@ -17,6 +17,8 @@ class CreateAcuerdosTable extends Migration
             $table->uuid('id')->primary();
             $table->date("fecha_acuerdo");
             $table->string("nombre_acuerdo");
+            $table->uuid("iniciativa_id");
+            $table->foreign("iniciativa_id")->on("iniciativas")->references("id");
             $table->timestamps();
         });
     }
