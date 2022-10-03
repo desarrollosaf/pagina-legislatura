@@ -17,6 +17,8 @@ class DiputadosSeeder extends Seeder
      */
     public function run()
     {
+
+
         $diputados = DB::connection("legislatura")->table("cdd_diputados_lxi")->get();
         $diputados->each(function ($item) {
             $genders = Gender::all();
@@ -36,5 +38,30 @@ class DiputadosSeeder extends Seeder
             ]);
             $diputado->foto()->create(["path" => "storage/img/fotos/dip/lxi/" . $item->foto]);
         });
+
+
+        $path = base_path("database/catalogos/diputados.json");
+        $json = json_decode(file_get_contents($path));
+        $json = (object) $json;
+//        dd($json);
+
+        foreach ($json as $item) {
+
+            $diputado = Diputado::where('nombres', 'like', $item->Nombre)
+               ->orWhere('apaterno', 'like', $item->apellidopaterno)->first();
+//            dd($diputado);
+//            if(!isset($item->facebo)){
+//                dd($item);
+//            }
+
+            $diputado->update([
+                "descripcion" => $item->descripcion,
+                "facebook" => $item->facebo,
+                "twitter" => $item->Twitter,
+                "instagram" => $item->insta,
+            ]);
+
+//            dd($diputado);
+        }
     }
 }

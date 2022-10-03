@@ -17,6 +17,7 @@ return new class extends Migration {
             $table->string("apaterno");
             $table->string("amaterno");
             $table->string("nombres");
+            $table->longText("descripcion")->nullable();
             $table->string("shortname");
             $table->string("fancyurl");
             $table->uuid("gender_id");

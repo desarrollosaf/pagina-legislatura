@@ -17,10 +17,13 @@
                     <div class="col-12 col-lg-7">
                         <div class="p-16 p-lg-32"><p class="mb-0">
                                 Distrito {{$data->integranteLegislatura->distrito->distrito}}</p>
-                            <p class="fw-semibold">{{$data->integranteLegislatura->distrito->municipio->cabecera}}</p>
-                            <p>Profesor normalista que trabaja en beneficio de las y los
-                                vecinos
-                                de Tultitlán, Estado de México.<br>Juntos haremos historia.
+                            <p class="fw-semibold" >
+                                @if($data->integranteLegislatura->distrito->municipio)
+                                {{$data->integranteLegislatura->distrito->municipio->cabecera}}
+                                @endif
+                            </p>
+                            <p style=" text-justify: auto !important;">
+                                {{$data->descripcion}}
                             </p>
                             <ul class="fs-sm">
                                 <li>Última atividad pública hace 2 horas</li>
